@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="header">
+            </div>
+            <h1>To-Do List</h1>
+            <div class="sort-icon margin">
+                    <img src="img/down.png" class="sort" alt="sort">
+            </div>
+            <div class="list margin">
+                <div class="list-footer list-item">
+                    <input type="text" placeholder="New Task">
+                    <img src="img/cancel.png" alt="cancel" class="input-img">
+                </div>
+            </div>
+            <br>
+            <div class="list-task">
+                <ol id="ol-id">
+                </ol>
+            </div>
+            <button class="add-button">
+                <div class="plus">+</div>
+                <div class="add">Add</div>
+            </button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
+</body>
+</html>
